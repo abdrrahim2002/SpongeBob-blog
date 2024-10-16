@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <meta name="keywords" content="SPONGEBOB, SPONG BOBE, SPONGEBOBE, SPONG BLOG, SPONGEBOB BLOG, SPONGEBOBE BLOG">
+  <meta name="description" content="Welcome to SpongeBob official blog i hope you like the blog 🍔">
+
+
+
+  <link rel="stylesheet" href={% static "blog/homepage.css" %}>
+</head>
+<body>
+  <!--the top part-->
+  <div class="header">
+
+    <!--the head part-->
+    <header>
+      <h1>Spong'Blog</h1>
+      <nav>
+        <a href="./all_posts">All posts</a>
+      </nav>
+    </header>
+
+
+    <!--below head part-->
+    <div class="header2">
+      <img src={% static "blog/imgs/Spongebob.jpg" %} alt="Spongebob">
+      <h2>SPONGEBOB'S<br>BLOG</h2>
+      <p>Hi, i am Bobe and i love Krusty Krab! 🍔</p>
+    </div>
+  </div>
+
+
+  <!--bottom part-->
+  <div class="content">
+    <h3>Most read</h3>
+
+    <a class="1" href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B3%D9%8A%D8%B7_%D9%86%D8%AC%D9%85" target="_blank" style="  color: black;">
+      <img src={% static "blog/imgs/Patrick Star.jpg" %} alt="">
+      <h4>Patrick</h4>
+      <p>Hi, I'm Patrick from Bikini Bottom! I may not be the brightest starfish in the sea, but I'm always up for some fun with my best friend SpongeBob SquarePants!</p>
+    </a>
+
+    <a class="2" href="https://ar.wikipedia.org/wiki/%D8%B4%D9%81%D9%8A%D9%82_%D8%AD%D8%A8%D8%A7%D8%B1" target="_blank" style="  color: black;">
+      <img src={% static "blog/imgs/Squidward.jpg" %} alt="">
+      <h4>Squidward</h4>
+      <p>Hello, I'm Squidward Tentacles, your friendly neighborhood clarinet player and aspiring artist. While I may have a grumpy exterior, deep down I have a passion for music and the arts.</p>
+    </a>
+
+    <a class="3" href="https://ar.wikipedia.org/wiki/%D8%B3%D8%A8%D9%88%D9%86%D8%AC_%D8%A8%D9%88%D8%A8_%D8%B3%D9%83%D9%88%D9%8A%D8%B1_%D8%A8%D8%A7%D9%86%D8%AA%D8%B3_(%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9_%D8%AE%D9%8A%D8%A7%D9%84%D9%8A%D8%A9)" target="_blank" style="  color: black;">
+      <img src={% static "blog/imgs/Spongebob.jpg" %} alt="">
+      <h4>Spongebob</h4>
+      <p>Hi, I'm SpongeBob SquarePants, the enthusiastic and optimistic sea sponge! I live in a pineapple under the sea and work at the Krusty Krab. I love jellyfishing, making Krabby Patties, and spreading positivity to everyone around me!</p>
+    </a>
+
+  </div>
+
+</body>
+</html>
